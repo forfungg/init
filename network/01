@@ -1,0 +1,4 @@
+MacOS
+networksetup -listallhardwareports
+Linux
+jnovotny@codestation:~/Documents/hive/init$ sudo lshw -c network -short | grep network | awk '{print $4}'

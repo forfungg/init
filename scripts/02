@@ -1,0 +1,4 @@
+#username as arument?
+#kill all processes
+pgrep -u Foo | xargs kill -9 <username> 
+userdel -r <username>

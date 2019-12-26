@@ -1,0 +1,3 @@
+Figure out the PID of the SSHD service
+ps axjf | grep sshd
+awk $2 e.g.

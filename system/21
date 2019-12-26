@@ -1,0 +1,4 @@
+#check the UID range for real users
+grep -E '^UID_MIN|^UID_MAX' /etc/login.defs
+#getent the range, e.g.
+getent passwd {1000..60000}

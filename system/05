@@ -1,2 +1,4 @@
+Name the command that determines the state of the SSH service
 $ ls -al ~/.ssh
 # Lists the files in your .ssh directory, if they exist
+sudo service ssh status

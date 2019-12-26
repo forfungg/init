@@ -1,0 +1,3 @@
+Partition list
+sudo fdisk -l
+sudo parted -l

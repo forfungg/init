@@ -1,3 +1,4 @@
-upstart
+# upstart services (linux only)
 service --status-all
-systemctl list-unit-files --type=service
+
+sudo systemctl list-unit-files --type=service --state=enabled --all

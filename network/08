@@ -1,3 +1,4 @@
 Find the provider of slash16.org
-Linux
+
+Linux/MacOS
 whois slash16.org | grep "Registrar URL"

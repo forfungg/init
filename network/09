@@ -1,1 +1,2 @@
 Find the external IP of 42.fr
+curl https://ipinfo.io/ip

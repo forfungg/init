@@ -1,1 +1,9 @@
 Thanks to the previous question and the reverse DNS find the name of your host
+
+MacOs
+hostname
+host 10.12.1.9
+
+Output
+c2r1p9.hive.fi
+9.1.12.10.in-addr.arpa domain name pointer c2r1p9.hive.fi.

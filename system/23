@@ -1,0 +1,11 @@
+sudo useradd <user_name>
+passwd <user_name>
+
+Graphic
+select <user_name>
+or click not listed -> enter <user_name>
+enter password
+
+SSH
+shh <user_name>@<vm_ip>
+ 

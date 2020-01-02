@@ -3,3 +3,6 @@ you’re using
 
 Linux
 cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
+
+MacOS
+/etc/resolv.conf

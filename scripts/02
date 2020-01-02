@@ -1,4 +1,5 @@
-#username as arument?
-#kill all processes
-pgrep -u Foo | xargs kill -9 <username> 
-userdel -r <username>
+USER=$1
+#pgrep -u $USER | while read PID; do sudo kill $PID; done
+#sudo userdel $USER
+pgrep -u $USER | xargs kill -9
+userdel -r $USER

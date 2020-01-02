@@ -2,3 +2,5 @@ ubuntu
 ip addr
 
 mac
+networksetup -listallhardwareports
+networksetup -listallhardwareports | head -8 | tail -1 | awk '{print $3}'

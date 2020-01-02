@@ -1,4 +1,5 @@
 MacOS
-networksetup -listallhardwareports
+networksetup -listallhardwareports | grep Port | awk '{print $3" "$4}'
+
 Linux
-jnovotny@codestation:~/Documents/hive/init$ sudo lshw -c network -short | grep network | awk '{print $4}'
+sudo lshw -c network -short | grep network | awk '{print $4}'

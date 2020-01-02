@@ -1,1 +1,7 @@
 Find the command that kills ssh service
+#check running ssh services
+ps -ef | grep ssh
+#check logged users
+who
+#kill desired process (PID) (-9 = making OS to kill the process)
+kill -9 <PID>

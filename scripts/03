@@ -1,0 +1,6 @@
+#update and upgrade (save to a log file)
+sudo echo "Update request" >> test
+sudo date >> test
+echo "Requesting Updates"
+sudo apt-get update --yes >> updatelog && sudo apt-get upgrade --yes >> updatelog
+echo "Done"

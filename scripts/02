@@ -1,5 +1,4 @@
 USER=$1
-#pgrep -u $USER | while read PID; do sudo kill $PID; done
-#sudo userdel $USER
-pgrep -u $USER | xargs kill -9
-userdel -r $USER
+pgrep -u $USER | while read PID; do sudo kill $PID; done
+sudo userdel $USER
+echo "User $USER deleted"

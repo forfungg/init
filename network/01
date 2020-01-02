@@ -1,5 +1,6 @@
 MacOS
 networksetup -listallhardwareports | grep Port | awk '{print $3" "$4}'
+ifconfig -l
 
 Linux
 sudo lshw -c network -short | grep network | awk '{print $4}'

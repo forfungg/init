@@ -1,2 +1,3 @@
 Figure out the PID of the SSHD service
+systemctl status ssh | grep PID | awk '{print $3}'
 ps axjf | grep sshd | awk '{print $2}'

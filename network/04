@@ -4,4 +4,4 @@ route -n
 ip route show | grep default | awk '{print $3}'
 
 MacOS
-netstat -nr | grep default
+netstat -nr | grep en0 | grep default | awk '{print $2}'

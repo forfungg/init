@@ -5,3 +5,7 @@ ps -ef | grep ssh
 who
 #kill desired process (PID) (-9 = making OS to kill the process)
 kill -9 <PID>
+
+#to stop the service as whole
+sudo service ssh stop
+systemctl stop ssh

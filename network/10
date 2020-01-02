@@ -1,3 +1,3 @@
 Identify the network devices between your computer and the slash16.org domain
 MacOS
-traceroute -q 1 -n slash16.org
+traceroute slash16.org

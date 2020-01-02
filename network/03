@@ -4,3 +4,4 @@ ip addr
 mac
 networksetup -listallhardwareports
 networksetup -listallhardwareports | head -8 | tail -1 | awk '{print $3}'
+ifconfig en1 | grep ether | awk '{print $2}'
